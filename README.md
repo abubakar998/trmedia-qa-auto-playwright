@@ -18,16 +18,19 @@ This project showcases a complete end-to-end automation setup using [Microsoft P
 
 ## 📁 Project Structure
 
-├── tests/ # Test specs (UI + API)
-│ ├── ui/ # UI test cases
-│ └── api/ # API test cases
-├── pages/ # Page Object files
-├── utilities/ # Helper functions (e.g., API client, data generators)
-├── fixtures/ # Test data and fixtures
-├── playwright.config.ts # Playwright configuration
-├── package.json # NPM scripts and dependencies
-├── tsconfig.json # TypeScript configuration
-└── README.md # Project documentation
+```
+├── tests/                 # Test specs (UI + API)
+│   ├── ui/                # UI test cases
+│   └── api/               # API test cases
+├── pages/                 # Page Object files
+├── utils/                 # Helper functions (e.g., API client, data generators)
+├── fixtures/              # Test data and fixtures
+├── playwright.config.ts   # Playwright configuration
+├── package.json           # NPM scripts and dependencies
+├── tsconfig.json          # TypeScript configuration
+└── README.md              # Project documentation
+```
+
 
 
 ---
